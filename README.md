@@ -37,7 +37,7 @@ The website includes the following sections:
 
 - Open your code editor (e.g., Visual Studio Code, etc.)
 - In your code editor, open the terminal
-- Clone the repository: git clone https://github.com/your-username/portfolio-website.git
+- Clone the repository: git clone [https://github.com/definitelynotshahan/HCI-Lab-Portfolio-Website-Assignment]
 - open index.html with live server or run the website locally using the Live Server Extension
 
 📂 Folder Structure
