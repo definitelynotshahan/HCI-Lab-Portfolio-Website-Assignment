@@ -1,0 +1,194 @@
+body {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #111111;
+    color: #ffffff;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.landing-screen {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.welcome-title {
+    font-size: 45px;
+    line-height: 1.6px;
+    margin-bottom: 80px;
+}
+
+.start-button {
+    background-color: #b9009b;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 25px 50px;
+    border-radius: 30px;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.menu-screen {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-back-button {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+    margin-top: 50px;
+    display: inline-block;
+    transition: color 0.25 ease, transform 0.25 ease;
+}
+
+.menu-back-button:hover {
+    color: #b9009b;
+    transform:scale(1.1);
+}
+
+.menu-title {
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list li {
+    margin: 35px 0;
+}
+
+.menu-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+    display: inline-block;
+    transition: color 0.25 ease, transform 0.25 ease;
+}
+
+.menu-link:hover {
+    color: #b9009b;
+    transform: scale(1.1);
+}
+
+.game-footer {
+    text-align: center;
+    font-size: 12px;
+    color: #555555;
+    padding-bottom: 20px;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.page-title {
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+
+.back-link {
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2 ease, transform 0.2 ease;
+    display: inline-block;
+}
+
+.back-link:hover {
+    color: #b9009b;
+    transform: translate(-4px);
+}
+
+.header-spacer {
+    width: 90px;
+    visibility: hidden;
+}
+
+.content-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    min-height: 60 vh;
+}
+
+.body-text {
+    font: 'Roboto Mono', monospace;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #cccccc;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.content-link {
+    color: #00f0ff;
+    text-decoration: underline;
+    transition: opacity 0.2 ease;
+}
+
+.content-link:hover {
+    opacity: 0.8;
+}
+
+.project-figure {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 0;
+    width: 100%;
+}
+
+.portfolio-image {
+    width: 100%;
+    height: auto;
+    border: 4px solid #555555;
+    display: block;
+    margin-bottom: 0 auto 10px auto;
+}
+
+.image-caption {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #888888;
+}
+
+.profile-figure {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 250px;
+    width: 100%;
+    padding: 0;
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 4px solid #888888;
+    border-radius: 10px;
+}
