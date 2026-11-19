@@ -40,6 +40,10 @@ The website includes the following sections:
 - Clone the repository: git clone [https://github.com/definitelynotshahan/HCI-Lab-Portfolio-Website-Assignment]
 - open index.html with live server or run the website locally using the Live Server Extension
 
+OR
+
+Open via the website link: https://definitelynotshahan.github.io/HCI-Lab-Portfolio-Website-Assignment/
+
 📂 Folder Structure
 
 HCI Lab Assignment
